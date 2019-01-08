@@ -26,7 +26,9 @@ class Author
     @posts << single_post
     single_post.author = self
   end
-   
+   def self.all
+     @@all
+   end
    def self.post_count
      self.all.each do |author| 
       @@post_count += author.posts.count
