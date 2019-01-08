@@ -11,5 +11,9 @@ class Post
    def self.all
      @@all
    end
+   
+   def author_name(author)
+     author = self.author
+   end
   
 end
