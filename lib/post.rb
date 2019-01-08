@@ -14,7 +14,7 @@ class Post
    
    def author_name
      author = self.author.name 
-     author
+
    end
   
 end
