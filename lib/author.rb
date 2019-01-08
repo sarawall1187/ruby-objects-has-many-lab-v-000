@@ -6,7 +6,7 @@ class Author
   @@all = []
   @@post_count = 0
   
-  def initialize(name = nil)
+  def initialize(name)
     @name = name 
     @posts = []
     @@all << self
