@@ -5,7 +5,7 @@ class Artist
   @@song_count = 0
   @@all = []
   
-  def initialize(name = nil)
+  def initialize(name)
     @name = name
     @songs = []
     @@all << self
